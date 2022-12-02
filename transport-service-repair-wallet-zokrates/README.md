@@ -6,26 +6,26 @@ Also, in the current day world, there is a huge overhead involved in creating a 
 ## Our solution
 
 <img src="./wallet.jpg">
-<h4 align="center"> Universal wallet </h4>
+<h4 align="center"> ZK Transport wallet </h4>
 <img src="./dapp.jpg">
 <h4 align="center"> An example Dapp using zk-functionalities </h4>
 
 
 We have 3 major modules in our project,
 
-a. Panacea wallet
+a. ZK Transport wallet
 
-b. Panacea SDK
+b. ZK Transport SDK
 
 c. ZK-Box
 
 
 
-· Panacea wallet supports operations like the signing of the transaction and other cryptographic operations across multiple platforms and blockchains that improve the overall usability and interoperability.
+· ZK Transport wallet supports operations like the signing of the transaction and other cryptographic operations across multiple platforms and blockchains that improve the overall usability and interoperability.
 
-· Panacea SDK helps Dapp developers to write globally compatible code across any EVM compatible blockchains. 
+· ZK Transport SDK helps Dapp developers to write globally compatible code across any EVM compatible blockchains. 
 
-· With the Panacea SDK, developers can build new wallet solutions that can be used without downloading a separate wallet and if the code is according to the specification the Dapp Developers do not have to change any code to support new Blockchain.
+· With the ZK Transport SDK, developers can build new wallet solutions that can be used without downloading a separate wallet and if the code is according to the specification the Dapp Developers do not have to change any code to support new Blockchain.
 
 · ZK_Box helps us to authenticate into various applications instantly by generating Zero-knowledge proofs without revealing any of the private data, ie, the password never actually leaves the laptop. It also helps us validate various parameters of the user identity like age using zero-knowledge age proofs. More complicated custom zero-knowledge proof generation like voter anonymization can also be done easily using the ZK-box.  
 
@@ -41,9 +41,9 @@ c. ZK-Box
 
 4. We used Angular and Express.JS for Front-end and Back-end.
 
-## Devpost Submission
-The project was submitted on devpost during the hackathon. [Here](https://devpost.com/software/zk-uniwallet) is the submission.
+
 ## Contributors 
+
 - [Akash](https://in.linkedin.com/in/akash981) - Blockchain dev
 - [Sarang Parikh](https://in.linkedin.com/in/sarang-parikh) - Blockchain dev
 - [Riya Singh](https://in.linkedin.com/in/riya-singh-5aa773193) - Frontend dev
