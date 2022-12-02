@@ -1,7 +1,3 @@
-<h1 align="center"> MIT-Bitcoin-Hackathon-2020 </h1>
-<h2 align="center"> ZK - Uniwallet </h2>
-
-## Inspiration
 
 Most of the Crypto users use wallets as their primary gateway to enter Web3 for transactions. But, the major limitation of the chrome-based plugins hinders the interactions with other Mobile and Desktop based Dapps. In addition, every existing Crypto wallet out there interacts with a single Blockchain network that hinders the usability and interoperability. The developers are currently limited to writing their codebase for a single Blockchain and not able to support other Blockchains for which they have to rewrite the entire code again!
 
