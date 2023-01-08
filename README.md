@@ -25,7 +25,7 @@ Fleet customers: fleet performance, compare against competition.
 
 Our solution offers an Artificial Intelligence-based object detection system that utilizes ZKP and scrypt aided solution, Klaytn blockchain, IPFS decentralized storage for sorting information obtained from a variety of cameras. With just a cell phone, users are offered a serverless solution that can detect objects in real time and more object types for better accuracy.
 
-Our technical solution enables driver monitoring, incident management and collision avoidance: Incident-based reporting & Collision detection (even when a vehicle is parked) and video footage associated with it. Video footage for abnormal driver behaviour (complete view of the car with 2 cameras – front and back and open source video streaming), real-time alert and live streaming using open source solutions and ASDI OpenAQ ((https://github.com/awslabs/open-data-registry/blob/main/datasets/openaq.yaml) dataset along with ZKP and scrypt aided solution on Bitcoin. We are also utilizing ZKP and scrypt aided solution on Bitcoin to receive road incident feedback reports by citizens, store feedback details from both users and government officials on the incident reports so that they can prevent incidents. Further, we have developed a DeFi dashboard for the riders and the insurance providers.
+Our technical solution enables driver monitoring, incident management and collision avoidance: Incident-based reporting & Collision detection (even when a vehicle is parked) and video footage associated with it. Video footage for abnormal driver behaviour (complete view of the car with 2 cameras – front and back and open source video streaming), real-time alert and live streaming using open source solutions and ASDI OpenAQ dataset along with ZKP and scrypt aided solution, Klaytn blockchain. We are also utilizing ZKP and scrypt aided solution on Bitcoin to receive road incident feedback reports by citizens, store feedback details from both users and government officials on the incident reports so that they can prevent incidents. Further, we have developed a DeFi dashboard for the riders and the insurance providers.
 
 Klaytn Rider Monitor is a DeFi dashboard that allows riders to search their address and view their vehicle token holdings and balance, also available is the ability for riders to view their vehicle NFT holdings and their balance(s) and price if available: https://github.com/seetadev/Transport-Monitor/tree/main/electronicincidentmanagement/Klaytn-rider-monitor
 
@@ -44,7 +44,7 @@ How it works:
 
 Camera Management: Add/edit/delete cameras with a front end application with ZKP and scrypt aided solution, Klaytn integration, IPFS for snapshots of road incident, Bitcoin based wallet for toll ticketing, data retrieval.
 
-Object Detection using open source AWS solutions, air quality measurements with ASDI OpenAQ ((https://github.com/awslabs/open-data-registry/blob/main/datasets/openaq.yaml) and Pytorch/Tensorflow deep learning library using CNN neural networks.
+Object Detection using open source AWS solutions, air quality measurements with ASDI OpenAQ and Pytorch/Tensorflow deep learning library using CNN neural networks.
 
 Video analytics configuration using IPFS, ZKP and scrypt aided solution on Bitcoin based solutions for security and for data retrieval.
 
