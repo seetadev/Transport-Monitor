@@ -58,4 +58,6 @@ We are also utilizing ZKP and scrypt aided Aleo solution, Klaytn to receive road
 
 ZKP and scrypt aided Aleo solution and Klaytn's license NFT registration module is to enable users to register their driving licenses as well as their vehicle registration details in a decentralized manner. An individual can be identified by his/her SSN and a vehicle by Vehicle Registry Number both of which for now are integers between 0 and 65535 (16 bit integers). Every SSN or individual is associated to an address of an individual Bitcoin account. We are developing our own NFT smart contract from the ground up following ZKP and scrypt aided solution, Aleo blockchain and the key tutorial shared at the github website. We are also logging the identities of the driving license owners, their vehicle assets using exchange of unique identifiers powered by ZKP and scrypt aided Aleo solution powered by Klaytn.
 
+ZK Transport wallet supports operations like the signing of the transaction and other cryptographic operations across multiple platforms and blockchains that improve the overall usability and interoperability. We used Zokrates for building the ZK Transport Wallet.
+
 
