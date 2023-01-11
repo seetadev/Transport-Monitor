@@ -29,6 +29,8 @@ Our technical solution enables driver monitoring, incident management and collis
 
 Klaytn Rider Monitor is a DeFi dashboard that allows riders to search their address and view their vehicle token holdings and balance, also available is the ability for riders to view their vehicle NFT holdings and their balance(s) and price if available: https://github.com/seetadev/Transport-Monitor/tree/main/electronicincidentmanagement/Klaytn-rider-monitor
 
+We are also extending Aleo's auction example for enabling sharing of government assets like toll prepaid card, car details information for interstate travel, driving license management and quarterly pollution check and control.
+
 Any abnormal behaviour/activity can be displayed on the smart dashboard in the vehicle.
 
 Built-in GPS technology useful in fleet management and tracking. Black box car tracking to be able to pre-empt and diagnose breakdowns more quickly. Recognition area built in the central control to pick up your body movements, GAIT analysis Vehicles become IoT devices which can connect to smartphones, take voice commands, change the user interface.
