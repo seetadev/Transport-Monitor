@@ -29,6 +29,8 @@ Our technical solution enables driver monitoring, incident management and collis
 
 Klaytn Rider Monitor is a DeFi dashboard that allows riders to search their address and view their vehicle token holdings and balance, also available is the ability for riders to view their vehicle NFT holdings and their balance(s) and price if available: https://github.com/seetadev/Transport-Monitor/tree/main/electronicincidentmanagement/Klaytn-rider-monitor
 
+Aleo Quotation, Bidding, voting and token management for contract work undertaken by contractors and road developers from Ministry of Road and Transportation, administrators on Aleo Network. Please visit: https://github.com/seetadev/Transport-Monitor/tree/main/aleo-zkp-road-maintenance-contract
+
 We are also extending Aleo's auction example for enabling sharing of government assets like toll prepaid card, car details information for interstate travel, driving license management and quarterly pollution check and control. Please visit https://github.com/seetadev/Transport-Monitor/tree/main/aleo-zkp-road-maintenance-contract
 
 Any abnormal behaviour/activity can be displayed on the smart dashboard in the vehicle.
