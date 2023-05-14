@@ -27,11 +27,17 @@ Our solution offers an Artificial Intelligence-based object detection system tha
 
 Our technical solution enables driver monitoring, incident management and collision avoidance: Incident-based reporting & Collision detection (even when a vehicle is parked) and video footage associated with it. Video footage for abnormal driver behaviour (complete view of the car with 2 cameras – front and back and open source video streaming), real-time alert and live streaming using open source solutions and ASDI OpenAQ dataset along with ZKP and scrypt aided solution, Klaytn blockchain. We are also utilizing ZKP and scrypt aided solution, Aleo blockchain to receive road incident feedback reports by citizens, store feedback details from both users and government officials on the incident reports so that they can prevent incidents. Further, we have developed a DeFi dashboard for the riders and the insurance providers.
 
-Klaytn Rider Monitor is a DeFi dashboard that allows riders to search their address and view their vehicle token holdings and balance, also available is the ability for riders to view their vehicle NFT holdings and their balance(s) and price if available: https://github.com/seetadev/Transport-Monitor/tree/main/electronicincidentmanagement/Klaytn-rider-monitor
+Vehicle Spare Parts Marketplace on Aeternity blockchain: Vehicle spare parts NFT marketplace on Aeternity blockchain for NFC tags of spare parts of vehicles, enabling sharing of government assets and service/repair of vital assets, reduction in counterfeiting of vital spare parts of vehicles and transport infrastructure.
 
-Aleo Quotation, Bidding, voting and token management for contract work undertaken by contractors and road developers from Ministry of Road and Transportation, administrators on Aleo Network. Please visit: https://github.com/seetadev/Transport-Monitor/tree/main/aleo-zkp-road-maintenance-contract
+We are developing the marketplace for NFTs based on the tutorial and reference implementations of AEX-141 standard.
 
-We are also extending Aleo's auction example for enabling sharing of government assets like toll prepaid card, car details information for interstate travel, driving license management and quarterly pollution check and control. Please visit https://github.com/seetadev/Transport-Monitor/tree/main/aleo-zkp-road-maintenance-contract
+Please visit: https://github.com/seetadev/Transport-Monitor/tree/main/aex141-nft-vehicle-spare-parts-marketplace
+
+Rider Monitor is a DeFi dashboard that allows riders to search their address and view their vehicle token holdings and balance, also available is the ability for riders to view their vehicle NFT holdings and their balance(s) and price if available: https://github.com/seetadev/Transport-Monitor/tree/main/electronicincidentmanagement/
+
+Quotation, Bidding, voting and token management for contract work undertaken by contractors and road developers from Ministry of Road and Transportation, administrators on blockchain Network. Please visit: https://github.com/seetadev/Transport-Monitor/tree/main/aleo-zkp-road-maintenance-contract
+
+We are also extending an auction example for enabling sharing of government assets like toll prepaid card, car details information for interstate travel, driving license management and quarterly pollution check and control. Please visit https://github.com/seetadev/Transport-Monitor/tree/main/aleo-zkp-road-maintenance-contract
 
 Any abnormal behaviour/activity can be displayed on the smart dashboard in the vehicle.
 
