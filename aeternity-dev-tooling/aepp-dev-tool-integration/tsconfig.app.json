@@ -1,0 +1,17 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/app",
+    "types": [],
+    "allowJs": true,
+    "paths": {
+      "path": ["./node_modules/path-browserify"],
+      "stream": ["./node_modules/stream-browserify"],
+      "crypto": ["./node_modules/crypto-browserify"]
+    },
+    "noImplicitAny": false
+  },
+  "files": ["src/main.ts", "src/polyfills.ts"],
+  "include": ["src/**/*.d.ts"]
+}
