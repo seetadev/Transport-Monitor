@@ -29,9 +29,7 @@ Our technical solution enables driver monitoring, incident management and collis
 
 # Aeternity blockchain and Web3 ecosystem tools
 
-Vehicle Spare Parts Marketplace on Aeternity blockchain: Vehicle spare parts NFT marketplace on Aeternity blockchain for NFC tags of spare parts of vehicles, enabling sharing of government assets and service/repair of vital assets, reduction in counterfeiting of vital spare parts of vehicles and transport infrastructure.
-
-We are developing the marketplace for NFTs based on the tutorial and reference implementations of AEX-141 standard.
+Vehicle Spare Parts Marketplace on Aeternity blockchain: Vehicle spare parts NFT marketplace on Aeternity blockchain for NFC tags of spare parts of vehicles, enabling sharing of government assets and service/repair of vital assets, reduction in counterfeiting of vital spare parts of vehicles and transport infrastructure. We are developing the marketplace for NFTs based on the tutorial and reference implementations of AEX-141 standard.
 
 Please visit: https://github.com/seetadev/Transport-Monitor/tree/main/aex141-nft-vehicle-spare-parts-marketplace
 
@@ -51,6 +49,8 @@ The decentralized Cloud-Connected Car Drives IoT Monetization. Real-time access 
 # How we built it
 
 We have developed a road incident management system using Javascript, HTML5, SAP's UI5 on the front end using Aeternity Blockchain and analytics tooling,  open source video streaming system, ZKP and scrypt aided Aleo blockchain solution, Klaytn blockchain, ASDI OpenAQ ((https://github.com/awslabs/open-data-registry/blob/main/datasets/openaq.yaml) and crowdsourcing marketplace enabled by ZKP and scrypt aided Aleo solution for enabling sharing of government assets like toll prepaid card, car details information for interstate travel, driving license management and quarterly pollution check and control powered by SocialCalc.
+
+Vehicle Spare Parts Marketplace on Aeternity blockchain: Vehicle spare parts NFT marketplace on Aeternity blockchain for NFC tags of spare parts of vehicles, enabling sharing of government assets and service/repair of vital assets, reduction in counterfeiting of vital spare parts of vehicles and transport infrastructure. Please visit: https://github.com/seetadev/Transport-Monitor/tree/main/aex141-nft-vehicle-spare-parts-marketplace
 
 How it works:
 
