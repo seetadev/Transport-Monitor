@@ -1,0 +1,77 @@
+@compiler >= 6
+
+include "Option.aes"
+include "./core/IAEX141.aes"
+
+contract SimpleNFTMarketplaceAE =
+
+    datatype sale_status = OPEN | EXECUTED | CANCELLED
+
+    datatype event
+        = AnnounceSale(address, int) // seller, sale_id
+        | CancelSale(int) // sale_id
+        | ExecuteSale(address, address, int) // seller, buyer, sale_id
+
+    record sale =
+        { seller: address
+        , token_id: int
+        , price: int
+        , status: sale_status }
+
+    record state =
+        { saleid_to_contract: map(int, IAEX141)
+        , saleid_to_sale: map(int, sale)
+        , sale_counter: int }
+
+    stateful entrypoint init() =
+        { saleid_to_contract = {},
+          saleid_to_sale = {},
+          sale_counter = 1 }
+
+    stateful entrypoint announce_sale(nft_contract: IAEX141, token_id: int, price: int) : int =
+        nft_contract.transfer_to_contract(token_id)
+        let sale_id = state.sale_counter
+        put(state{ saleid_to_contract[state.sale_counter] = nft_contract
+            , saleid_to_sale[state.sale_counter] =
+                { seller = Call.caller
+                , token_id = token_id
+                , price = price
+                , status = OPEN }
+            , sale_counter = sale_id + 1 })
+        Chain.event(AnnounceSale(Call.caller, sale_id))
+        sale_id
+
+    payable stateful entrypoint execute_sale(sale_id: int) =
+        let nft_contract = Option.force_msg(
+                                Map.lookup(sale_id,
+                                    state.saleid_to_contract), "UNKNOWN_TOKEN_CONTRACT")
+        let sale = Option.force_msg(
+                        Map.lookup(sale_id,
+                            state.saleid_to_sale), "SALE_ID_NOT_EXISTS")
+        require(sale.status == OPEN, "SALE_NOT_IN_STATUS_OPEN")
+        require(Call.value == sale.price, "PROVIDED_AMOUNT_NOT_MATCHES_PRICE")
+        Chain.spend(sale.seller, Call.value)
+        nft_contract.transfer(Call.caller, sale.token_id, None)
+        put(state{ saleid_to_sale[sale_id] = sale{ status = EXECUTED } })
+        Chain.event(ExecuteSale(sale.seller, Call.caller, sale_id))
+
+    stateful entrypoint cancel_sale(sale_id: int) =
+        let nft_contract = Option.force_msg(
+                                Map.lookup(sale_id,
+                                    state.saleid_to_contract), "UNKNOWN_TOKEN_CONTRACT")
+        let sale = Option.force_msg(
+                        Map.lookup(sale_id,
+                            state.saleid_to_sale), "SALE_ID_NOT_EXISTS")
+        require(Call.caller == sale.seller, "SALE_CAN_ONLY_BE_CANCELLED_BY_SELLER")
+        put(state{ saleid_to_sale[sale_id] = sale{ status = CANCELLED } })
+        nft_contract.transfer(Call.caller, sale.token_id, None)
+        Chain.event(CancelSale(sale_id))
+
+    entrypoint get_sale(sale_id: int) : (IAEX141 * sale) =
+        let nft_contract = Option.force_msg(
+                                Map.lookup(sale_id,
+                                    state.saleid_to_contract), "UNKNOWN_TOKEN_CONTRACT")
+        let sale = Option.force_msg(
+                        Map.lookup(sale_id,
+                            state.saleid_to_sale), "SALE_ID_NOT_EXISTS")
+        (nft_contract, sale)

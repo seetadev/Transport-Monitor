@@ -1,0 +1,19 @@
+{
+  "name": "aex141-nft-simple-marketplace",
+  "version": "1.0.0",
+  "description": "a simple NFT marketplace implementation",
+  "scripts": {
+    "test": "mocha ./test/**/*.js --timeout 0 --exit",
+    "test:simpleNftMarketplace": "mocha ./test/simpleNftMarketplaceTest.js --timeout 0 --exit"
+  },
+  "dependencies": {
+    "@aeternity/aepp-sdk": "^13.0.0",
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "@aeternity/aeproject": "^4.6.0",
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^10.0.0"
+  }
+}
