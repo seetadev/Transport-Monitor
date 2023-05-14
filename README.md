@@ -27,6 +27,8 @@ Our solution offers an Artificial Intelligence-based object detection system tha
 
 Our technical solution enables driver monitoring, incident management and collision avoidance: Incident-based reporting & Collision detection (even when a vehicle is parked) and video footage associated with it. Video footage for abnormal driver behaviour (complete view of the car with 2 cameras – front and back and open source video streaming), real-time alert and live streaming using open source solutions and ASDI OpenAQ dataset along with ZKP and scrypt aided solution, Klaytn blockchain. We are also utilizing ZKP and scrypt aided solution, Aleo blockchain to receive road incident feedback reports by citizens, store feedback details from both users and government officials on the incident reports so that they can prevent incidents. Further, we have developed a DeFi dashboard for the riders and the insurance providers.
 
+# Aeternity blockchain and Web3 ecosystem tools
+
 Vehicle Spare Parts Marketplace on Aeternity blockchain: Vehicle spare parts NFT marketplace on Aeternity blockchain for NFC tags of spare parts of vehicles, enabling sharing of government assets and service/repair of vital assets, reduction in counterfeiting of vital spare parts of vehicles and transport infrastructure.
 
 We are developing the marketplace for NFTs based on the tutorial and reference implementations of AEX-141 standard.
