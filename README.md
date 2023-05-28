@@ -32,6 +32,21 @@ Vehicle Spare Parts Marketplace on Gnosis blockchain: Vehicle spare parts NFT ma
 
 Request Network: Quotation, Bidding and Invoicing, voting and token management for contract work undertaken by contractors and road developers from Ministry of Road and Transportation, administrators on blockchain Network. We are also extending an auction example for enabling sharing of government assets like toll prepaid card, car details information for interstate travel, driving license management and quarterly pollution check and control. 
 
+
+Etherspot:  Account Abstraction Plugins for Transport DAO enables customization of verification logic via Etherspor with a rule/logic setting, tabulation, organization, visualization tool namely SocialCalc spreadsheet. This allows users to set up rules which their account has to abide by when executing transactions while being able to reconfigure them in the future. The process improves account security by restricting permissions certain keys have while remaining adaptable to the user's changing needs.
+Implementation areas of Account Abstraction plugins in Transport DAO using EtherSpot and Socialcalc:
+
+Enforcing a spending limit for vital transport assets based on the key used for the transaction.
+
+Restricting interaction with a certain citizen wallet or DAO dApp to a specific key.
+
+Defining session keys, which are allowed to initiate service or repair transactions for only a limited period of time
+
+
+Gateway: We are using Gateway RPC end points for Incident-based reporting & Collision detection (even when a vehicle is parked) and video footage associated with it. Video footage for abnormal driver behaviour (complete view of the car with 2 cameras – front and back and open source video streaming), real-time alert and live streaming using open source solutions and ASDI OpenAQ dataset along with Gateway RPC end points.
+
+We are also using gateway RPC end points to enable providing government subsidies for greener fuel and pollution check credits. Government organizations can send crypto from source-chain to destination-chain and distribute it equally among all accounts specified for subsidy or reimbursement using call contract with token. 
+
 Any abnormal behaviour/activity can be displayed on the smart dashboard in the vehicle.
 
 Built-in GPS technology useful in fleet management and tracking. Black box car tracking to be able to pre-empt and diagnose breakdowns more quickly. Recognition area built in the central control to pick up your body movements, GAIT analysis Vehicles become IoT devices which can connect to smartphones, take voice commands, change the user interface.
