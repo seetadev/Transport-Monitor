@@ -1,8 +1,8 @@
-# Aeternity Transport ICM (ZK Tranport Intel)
-Investigative case management solution for citizens, police officers, drivers to report and manage incidents, detect and prevent accidents on web using Aeternity Blockchain and analytics tooling, ZKP and sCrypt eco-system, Aleo blockchain and tools.
+# Tranport Intel
+Investigative case management solution for citizens, police officers, drivers to report and manage incidents, detect and prevent accidents on web using Gnosis Blockchain and analytics tooling, ZKP and sCrypt eco-system, Aleo blockchain and tools.
 
 
-Our app solution will enable effective design, engineering and delivery of ZKP and scrypt aided solution powered by Aeternity Blockchain and analytics tooling, Aeternity dev tooling and services to make roads safer and better using predictive analytics and automation for incident reporting and reduction in hazardous transportation with capabilities pluggable and extendable to 5 different personas: Driver, Police, Citizen, Dispatcher, Admin.
+Our app solution will enable effective design, engineering and delivery of ZKP and scrypt aided solution powered by Gnosis Blockchain and analytics tooling, Gnosis dev tooling and services to make roads safer and better using predictive analytics and automation for incident reporting and reduction in hazardous transportation with capabilities pluggable and extendable to 5 different personas: Driver, Police, Citizen, Dispatcher, Admin.
 
 Our solution will benefit: Police Force - 360 degrees access of the incidents to the action/ administration team. They can manage the complete lifecycle of incident reporting, overall status, traffic monitoring, managing police teams. Using machine learning they can also predict the incident occurrence at any area. This will help in taking necessary actions in advance to control the traffic. They can also use the solution for effective utilization of staff members and provide road safety counselling.
 
@@ -23,21 +23,15 @@ Fleet customers: fleet performance, compare against competition.
 
 # What it does
 
-Our solution offers an Artificial Intelligence-based object detection system that utilizes Aeternity Blockchain and analytics tooling, dev tooling and services, ZKP and scrypt aided Aleo solution, Klaytn blockchain, IPFS decentralized storage for sorting information obtained from a variety of cameras. With just a cell phone, users are offered a serverless solution that can detect objects in real time and more object types for better accuracy.
+Our solution offers an Artificial Intelligence-based object detection system that utilizes Gnosis Blockchain and analytics tooling, dev tooling and services, ZKP and scrypt aided Aleo solution, Klaytn blockchain, IPFS decentralized storage for sorting information obtained from a variety of cameras. With just a cell phone, users are offered a serverless solution that can detect objects in real time and more object types for better accuracy.
 
 Our technical solution enables driver monitoring, incident management and collision avoidance: Incident-based reporting & Collision detection (even when a vehicle is parked) and video footage associated with it. Video footage for abnormal driver behaviour (complete view of the car with 2 cameras – front and back and open source video streaming), real-time alert and live streaming using open source solutions and ASDI OpenAQ dataset along with ZKP and scrypt aided solution, Klaytn blockchain. We are also utilizing ZKP and scrypt aided solution, Aleo blockchain to receive road incident feedback reports by citizens, store feedback details from both users and government officials on the incident reports so that they can prevent incidents. Further, we have developed a DeFi dashboard for the riders and the insurance providers.
 
-# Aeternity blockchain and Web3 ecosystem tools
+# Gnosis blockchain and Web3 ecosystem tools
 
-Vehicle Spare Parts Marketplace on Aeternity blockchain: Vehicle spare parts NFT marketplace on Aeternity blockchain for NFC tags of spare parts of vehicles, enabling sharing of government assets and service/repair of vital assets, reduction in counterfeiting of vital spare parts of vehicles and transport infrastructure. We are developing the marketplace for NFTs based on the tutorial and reference implementations of AEX-141 standard.
+Vehicle Spare Parts Marketplace on Gnosis blockchain: Vehicle spare parts NFT marketplace on Gnosis blockchain for NFC tags of spare parts of vehicles, enabling sharing of government assets and service/repair of vital assets, reduction in counterfeiting of vital spare parts of vehicles and transport infrastructure. We are developing the marketplace for NFTs based on the tutorial and reference implementations of AEX-141 standard.
 
-Please visit: https://github.com/seetadev/Transport-Monitor/tree/main/aex141-nft-vehicle-spare-parts-marketplace
-
-Rider Monitor is a DeFi dashboard that allows riders to search their address and view their vehicle token holdings and balance, also available is the ability for riders to view their vehicle NFT holdings and their balance(s) and price if available: https://github.com/seetadev/Transport-Monitor/tree/main/electronicincidentmanagement/
-
-Quotation, Bidding, voting and token management for contract work undertaken by contractors and road developers from Ministry of Road and Transportation, administrators on blockchain Network. Please visit: https://github.com/seetadev/Transport-Monitor/tree/main/aleo-zkp-road-maintenance-contract
-
-We are also extending an auction example for enabling sharing of government assets like toll prepaid card, car details information for interstate travel, driving license management and quarterly pollution check and control. Please visit https://github.com/seetadev/Transport-Monitor/tree/main/aleo-zkp-road-maintenance-contract
+Quotation, Bidding, voting and token management for contract work undertaken by contractors and road developers from Ministry of Road and Transportation, administrators on blockchain Network. We are also extending an auction example for enabling sharing of government assets like toll prepaid card, car details information for interstate travel, driving license management and quarterly pollution check and control. 
 
 Any abnormal behaviour/activity can be displayed on the smart dashboard in the vehicle.
 
@@ -48,9 +42,9 @@ The decentralized Cloud-Connected Car Drives IoT Monetization. Real-time access 
 
 # How we built it
 
-We have developed a road incident management system using Javascript, HTML5, SAP's UI5 on the front end using Aeternity Blockchain and analytics tooling,  open source video streaming system, ZKP and scrypt aided Aleo blockchain solution, Klaytn blockchain, ASDI OpenAQ ((https://github.com/awslabs/open-data-registry/blob/main/datasets/openaq.yaml) and crowdsourcing marketplace enabled by ZKP and scrypt aided Aleo solution for enabling sharing of government assets like toll prepaid card, car details information for interstate travel, driving license management and quarterly pollution check and control powered by SocialCalc.
+We have developed a road incident management system using Javascript, HTML5, SAP's UI5 on the front end using Gnosis Blockchain and analytics tooling, open source video streaming system, ZKP and scrypt aided Aleo blockchain solution, Klaytn blockchain, ASDI OpenAQ ((https://github.com/awslabs/open-data-registry/blob/main/datasets/openaq.yaml) and crowdsourcing marketplace enabled by ZKP and scrypt aided Aleo solution for enabling sharing of government assets like toll prepaid card, car details information for interstate travel, driving license management and quarterly pollution check and control powered by SocialCalc.
 
-Vehicle Spare Parts Marketplace on Aeternity blockchain: Vehicle spare parts NFT marketplace on Aeternity blockchain for NFC tags of spare parts of vehicles, enabling sharing of government assets and service/repair of vital assets, reduction in counterfeiting of vital spare parts of vehicles and transport infrastructure. Please visit: https://github.com/seetadev/Transport-Monitor/tree/main/aex141-nft-vehicle-spare-parts-marketplace
+Vehicle Spare Parts Marketplace on Gnosis blockchain: Vehicle spare parts NFT marketplace on Gnosis blockchain for NFC tags of spare parts of vehicles, enabling sharing of government assets and service/repair of vital assets, reduction in counterfeiting of vital spare parts of vehicles and transport infrastructure. 
 
 How it works:
 
