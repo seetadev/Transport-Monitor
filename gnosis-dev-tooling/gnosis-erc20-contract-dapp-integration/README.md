@@ -1,0 +1,1 @@
+Gnosis ERC-20 dapp integration
