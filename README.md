@@ -28,9 +28,13 @@ Our technical solution enables driver monitoring, incident management and collis
 
 # Gnosis blockchain and Web3 ecosystem tools
 
-- Vehicle Spare Parts Marketplace on Gnosis blockchain: Vehicle spare parts NFT marketplace on Gnosis blockchain for NFC tags of spare parts of vehicles, enabling sharing of government assets and service/repair of vital assets, reduction in counterfeiting of vital spare parts of vehicles and transport infrastructure. Please visit:  https://github.com/seetadev/Transport-Monitor/tree/main/gnosis-dev-tooling and https://github.com/seetadev/Transport-Monitor/tree/main/contract-management
+- Vehicle Spare Parts Marketplace on Gnosis blockchain: Vehicle spare parts NFT marketplace on Gnosis blockchain for NFC tags of spare parts of vehicles, enabling sharing of government assets and service/repair of vital assets, reduction in counterfeiting of vital spare parts of vehicles and transport infrastructure. Please visit:  https://github.com/seetadev/Transport-Monitor/tree/main/gnosis-dev-tooling and https://github.com/seetadev/Transport-Monitor/tree/main/contract-management 
+
+Screencasts and Demos at https://drive.google.com/drive/u/4/folders/1o-buzIQwT-HuEfh7n5kUG8FhcKBppM65
 
 - Request Network: Quotation, Bidding and Invoicing, voting and token management for contract work undertaken by contractors and road developers from Ministry of Road and Transportation, administrators on blockchain Network. We are also extending an auction example for enabling sharing of government assets like toll prepaid card, car details information for interstate travel, driving license management and quarterly pollution check and control. Please visit: https://github.com/seetadev/Transport-Monitor/tree/main/contract-management 
+
+Demo for Request network implementation at https://drive.google.com/drive/u/4/folders/1o-buzIQwT-HuEfh7n5kUG8FhcKBppM65
 
 
 - Etherspot:  Account Abstraction Plugins for Transport DAO enables customization of verification logic via Etherspot's Transaction Builder with a rule/logic setting, tabulation, organization, visualization tool namely SocialCalc spreadsheet. This allows users to set up rules which their account has to abide by when executing transactions while being able to reconfigure them in the future. The process improves account security by restricting permissions certain keys have while remaining adaptable to the user's changing needs.
@@ -44,9 +48,13 @@ Implementation areas of Account Abstraction plugins in Transport DAO using Ether
 
 Please visit: https://github.com/seetadev/Transport-Monitor/tree/main/transport-service-repair-wallet-zokrates/etherspot-computation-data-visualization
 
+Demo of account abstraction implementation at https://drive.google.com/drive/u/4/folders/1o-buzIQwT-HuEfh7n5kUG8FhcKBppM65
+
 Gateway: We are using Gateway RPC end points for Incident-based reporting & Collision detection (even when a vehicle is parked) and video footage associated with it. Video footage for abnormal driver behaviour (complete view of the car with 2 cameras – front and back and open source video streaming), real-time alert and live streaming using open source solutions and ASDI OpenAQ dataset along with Gateway RPC end points.
 
 We are also using gateway RPC end points to enable providing government subsidies for greener fuel and pollution check credits. Government organizations can send crypto from source-chain to destination-chain and distribute it equally among all accounts specified for subsidy or reimbursement using call contract with token. 
+
+Screencast for the object detection implementation at https://drive.google.com/drive/u/4/folders/1o-buzIQwT-HuEfh7n5kUG8FhcKBppM65
 
 Any abnormal behaviour/activity can be displayed on the smart dashboard in the vehicle.
 
