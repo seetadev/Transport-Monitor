@@ -33,15 +33,16 @@ Our technical solution enables driver monitoring, incident management and collis
 - Request Network: Quotation, Bidding and Invoicing, voting and token management for contract work undertaken by contractors and road developers from Ministry of Road and Transportation, administrators on blockchain Network. We are also extending an auction example for enabling sharing of government assets like toll prepaid card, car details information for interstate travel, driving license management and quarterly pollution check and control. Please visit: https://github.com/seetadev/Transport-Monitor/tree/main/contract-management 
 
 
-- Etherspot:  Account Abstraction Plugins for Transport DAO enables customization of verification logic via Etherspor with a rule/logic setting, tabulation, organization, visualization tool namely SocialCalc spreadsheet. This allows users to set up rules which their account has to abide by when executing transactions while being able to reconfigure them in the future. The process improves account security by restricting permissions certain keys have while remaining adaptable to the user's changing needs.
-Implementation areas of Account Abstraction plugins in Transport DAO using EtherSpot and Socialcalc:
+- Etherspot:  Account Abstraction Plugins for Transport DAO enables customization of verification logic via Etherspot's Transaction Builder with a rule/logic setting, tabulation, organization, visualization tool namely SocialCalc spreadsheet. This allows users to set up rules which their account has to abide by when executing transactions while being able to reconfigure them in the future. The process improves account security by restricting permissions certain keys have while remaining adaptable to the user's changing needs.
+Implementation areas of Account Abstraction plugins in Transport DAO using EtherSpot's Transaction Builder and Socialcalc:
 
-Enforcing a spending limit for vital transport assets based on the key used for the transaction.
+- Enforcing a spending limit for vital transport assets based on the key used for the transaction.
 
-Restricting interaction with a certain citizen wallet or DAO dApp to a specific key.
+- Restricting interaction with a certain citizen wallet or DAO dApp to a specific key.
 
-Defining session keys, which are allowed to initiate service or repair transactions for only a limited period of time
+- Defining session keys, which are allowed to initiate service or repair transactions for only a limited period of time
 
+Please visit: https://github.com/seetadev/Transport-Monitor/tree/main/transport-service-repair-wallet-zokrates/etherspot-computation-data-visualization
 
 Gateway: We are using Gateway RPC end points for Incident-based reporting & Collision detection (even when a vehicle is parked) and video footage associated with it. Video footage for abnormal driver behaviour (complete view of the car with 2 cameras – front and back and open source video streaming), real-time alert and live streaming using open source solutions and ASDI OpenAQ dataset along with Gateway RPC end points.
 
