@@ -1,0 +1,12 @@
+{
+  "name": "request-apps",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/shared",
+      "packages/request-ui",
+      "packages/create",
+      "packages/pay"
+    ]
+  }
+}

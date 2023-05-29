@@ -1,0 +1,45 @@
+# Request Network Contribution Guide
+
+We welcome contributions from anyone, and are grateful for even the smallest of fixes!
+
+## Got a Question or Problem?
+
+For quick help, join the [Request Discord](https://request.network/discord) and ask your question there.
+You will get a reply much faster than by opening an issue.
+
+## Found a Bug?
+
+If you have found a bug, please submit an issue to report it. Or even better, create a pull request!
+
+## Requesting a feature
+
+You can request a new feature by submitting an issue to our GitHub Repository explaining the use case.
+If you would like to implement a new feature, please submit an issue with a proposal for your work first, to be sure that we can use it.
+
+## Submission Guidelines
+
+### Submitting an Issue
+
+Before you submit an issue, please search the issue tracker, maybe an issue for your problem already exists and
+the discussion might inform you of workarounds readily available.
+
+To ensure fast resolution, please include the useful details:
+
+- A quick summary and/or background
+- Steps to reproduce
+- Be specific!
+- Give sample code if you can. Ideally, provide a minimal reproduce scenario through any online javascript code playground.
+- What you expected would happen
+- What actually happens
+- Notes (possibly including why you think this might be happening, or stuff you tried that didn't work)
+
+### Submitting a Pull Request (PR)
+
+When contributing to this repository, please first discuss the change you wish to make via a github issue before making a change.
+
+Fork this repository, make your changes on a branch of your local fork.
+Once your changes are done, make a Pull Request to the `master` branch of this repository.
+
+### Useful information when developping
+
+Have a look at this [guide](https://docs.request.network/dev/contributing) to help you get started with developing Request

@@ -1,0 +1,39 @@
+name: "[Pay] Deploy to Production"
+
+on:
+  push:
+    tags:
+      - "*"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-deploy-production:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+      - name: yarn install & build
+        run: |
+          # https://github.com/yarnpkg/yarn/issues/2629
+          while ! yarn install; do echo --- ; done
+          yarn workspace request-shared build
+          yarn workspace request-ui build
+          yarn workspace pay build
+        env:
+          CI: false
+          PUBLIC_URL: https://${{ secrets.PAY_PROD_S3_BUCKET }}
+          REACT_APP_EGS_API_KEY: ${{ secrets.EGS_API_KEY }}
+      - uses: benjlevesque/s3-sync-action@master
+        env:
+          CI: false
+          SOURCE_DIR: "packages/pay/build"
+          AWS_REGION: eu-west-1
+          AWS_S3_BUCKET: ${{ secrets.PAY_PROD_S3_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}

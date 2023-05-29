@@ -1,0 +1,6 @@
+{
+  "name": "Request",
+  "description": "Create, receive and pay crypto invoices straight from your Gnosis Safe",
+  "providedBy": { "name": "Request", "url": "https://request.network" },
+  "iconPath": "request_icon_green.svg"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "request-shared",
+  "version": "0.1.0",
+  "author": "Request",
+  "license": "MIT",
+  "private": true,
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@requestnetwork/currency": "0.9.1-next.1887",
+    "@requestnetwork/request-client.js": "0.40.1-next.1887",
+    "@requestnetwork/types": "0.36.1-next.1887",
+    "@requestnetwork/web3-signature": "0.4.37-next.1887",
+    "ethers": "5.5.1",
+    "wallet-address-validator": "^0.2.4"
+  }
+}
