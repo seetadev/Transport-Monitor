@@ -26,19 +26,32 @@ Our solution offers an Artificial Intelligence-based object detection system tha
 
 Our technical solution enables driver monitoring, incident management and collision avoidance: Incident-based reporting & Collision detection (even when a vehicle is parked) and video footage associated with it. Video footage for abnormal driver behaviour (complete view of the car with 2 cameras – front and back and open source video streaming), real-time alert and live streaming using open source solutions and ASDI OpenAQ dataset along with Gateway RPC end points, ZKP and scrypt aided solution. We are also utilizing ZKP and scrypt aided solution, blockchain to receive road incident feedback reports by citizens, store feedback details from both users and government officials on the incident reports so that they can prevent incidents. Further, we have developed a DeFi dashboard for the riders and the insurance providers.
 
-# Gnosis blockchain and Web3 ecosystem tools
+# Internet Computer blockchain and Web3 ecosystem tools
 
-- Vehicle Spare Parts Marketplace on Gnosis blockchain: Vehicle spare parts NFT marketplace on Gnosis blockchain for NFC tags of spare parts of vehicles, enabling sharing of government assets and service/repair of vital assets, reduction in counterfeiting of vital spare parts of vehicles and transport infrastructure. Please visit:  https://github.com/seetadev/Transport-Monitor/tree/main/gnosis-dev-tooling and https://github.com/seetadev/Transport-Monitor/tree/main/contract-management 
+- An AI-based object detection system that utilizes ICP developer tooling for data analytics, decentralized storage for sorting information obtained from cameras. With just a cell phone, users are offered an ICP solution that can detect objects in real time. more object types for better accuracy
 
 Screencasts and Demos at https://drive.google.com/drive/u/4/folders/1o-buzIQwT-HuEfh7n5kUG8FhcKBppM65
 
-- Request Network: Quotation, Bidding and Invoicing, voting and token management for contract work undertaken by contractors and road developers from Ministry of Road and Transportation, administrators on blockchain Network. We are also extending an auction example for enabling sharing of government assets like toll prepaid card, car details information for interstate travel, driving license management and quarterly pollution check and control. Please visit: https://github.com/seetadev/Transport-Monitor/tree/main/contract-management 
+- Bootable OS using IC Canister for Command and Control Centers: This will enable an OS where secure and transparent workflows for Quotation, Bidding and Invoicing, voting and token management for contract work undertaken by contractors and road developers from Ministry of Road and Transportation, administrators can be undertaken on ICP blockchain Network. 
 
-Demo for Request network implementation at https://drive.google.com/drive/u/4/folders/1o-buzIQwT-HuEfh7n5kUG8FhcKBppM65
+Demo for implementation at https://drive.google.com/drive/u/4/folders/1o-buzIQwT-HuEfh7n5kUG8FhcKBppM65
 
+Canister ID: oeagv-5qaaa-aaaah-aar4q-cai
 
-- Etherspot:  Account Abstraction Plugins for Transport DAO enables customization of verification logic via Etherspot's Transaction Builder with a rule/logic setting, tabulation, organization, visualization tool namely SocialCalc spreadsheet. This allows users to set up rules which their account has to abide by when executing transactions while being able to reconfigure them in the future. The process improves account security by restricting permissions certain keys have while remaining adaptable to the user's changing needs.
-Implementation areas of Account Abstraction plugins in Transport DAO using EtherSpot's Transaction Builder and Socialcalc:
+We are developing a backend solution, where the command and control center can boot a Linux OS by uploading it to an IC Canister. 
+
+A virtual disk (An Ubuntu or Debian-minimal PXE image with associated configuration) is uploaded to an IC Canister.
+
+A target host talks to the DHCP server to get the location of the PXE image (ie TFTP server)
+
+PXE requsts from the TFTP Server the files and sectors that it needs
+
+TFTP server translates those requests to talk to the IC canister holding the boot artifacts
+
+On the target host, using PXE, a guest VM will be allowed to boot and load its configuration from the TXE server.
+
+Account Abstraction Plugins for Transport DAO enables customization of verification logic via ICP's Transaction Builder with a rule/logic setting, tabulation, organization, visualization tool namely SocialCalc spreadsheet. This allows users to set up rules which their account has to abide by when executing transactions while being able to reconfigure them in the future. The process improves account security by restricting permissions certain keys have while remaining adaptable to the user's changing needs.
+Implementation areas of Account Abstraction plugins in Transport DAO using Transaction Builder and Socialcalc:
 
 - Enforcing a spending limit for vital transport assets based on the key used for the transaction.
 
@@ -46,9 +59,9 @@ Implementation areas of Account Abstraction plugins in Transport DAO using Ether
 
 - Defining session keys, which are allowed to initiate service or repair transactions for only a limited period of time
 
-Please visit: https://github.com/seetadev/Transport-Monitor/tree/main/transport-service-repair-wallet-zokrates/etherspot-computation-data-visualization
-
 Demo of account abstraction implementation at https://drive.google.com/drive/u/4/folders/1o-buzIQwT-HuEfh7n5kUG8FhcKBppM65
+
+- Gateway RPC end points, interoperability with chains like Gnosis.
 
 Gateway: We are using Gateway RPC end points for Incident-based reporting & Collision detection (even when a vehicle is parked) and video footage associated with it. Video footage for abnormal driver behaviour (complete view of the car with 2 cameras – front and back and open source video streaming), real-time alert and live streaming using open source solutions and ASDI OpenAQ dataset along with Gateway RPC end points.
 
