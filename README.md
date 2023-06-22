@@ -30,13 +30,13 @@ Our technical solution enables driver monitoring, incident management and collis
 
 - An AI-based object detection system that utilizes ICP developer tooling for data analytics, decentralized storage for sorting information obtained from cameras. With just a cell phone, users are offered an ICP solution that can detect objects in real time. more object types for better accuracy
 
+- Bootable OS using IC Canister for Command and Control Centers: This will enable an OS where secure and transparent workflows for Quotation, Bidding and Invoicing, voting and token management for contract work undertaken by contractors and road developers from Ministry of Road and Transportation, administrators can be undertaken on ICP blockchain Network.
+
+  Please visit https://github.com/seetadev/Transport-Monitor/tree/main/Command-Center-OS-IC-Canister and https://github.com/seetadev/Transport-Monitor/tree/main/IC-dev-tooling
+
 Screencasts and Demos at https://drive.google.com/drive/u/4/folders/1o-buzIQwT-HuEfh7n5kUG8FhcKBppM65
 
-- Bootable OS using IC Canister for Command and Control Centers: This will enable an OS where secure and transparent workflows for Quotation, Bidding and Invoicing, voting and token management for contract work undertaken by contractors and road developers from Ministry of Road and Transportation, administrators can be undertaken on ICP blockchain Network. 
-
 Demo for implementation at https://drive.google.com/drive/u/4/folders/1o-buzIQwT-HuEfh7n5kUG8FhcKBppM65
-
-Canister ID: oeagv-5qaaa-aaaah-aar4q-cai
 
 We are developing a backend solution, where the command and control center can boot a Linux OS by uploading it to an IC Canister. 
 
@@ -105,13 +105,15 @@ Video analytics configuration using IPFS, ZKP and scrypt aided solution on Bitco
 
 Live streaming with Object Detection Video Analytics using open source AWS for streaming, ZKP and scrypt aided solution, Klaytn for security and for snapshots.
 
-Alarm storage using IPFS with ZKP and scrypt aided Aleo solution, Klaytn. Save/delete alarm metadata and image to/from IPFS. Store the hash returned from IPFS to ZKP and scrypt aided solution, ICP network, ZKP and scrypt aided Aleo solution, Klaytn protocol based solutions for security and for data retrieval. Provide links to alarms and blockchain transaction details.
+Alarm storage using IPFS with ZKP and scrypt aided ICP solution. Save/delete alarm metadata and image to/from IPFS. Store the hash returned from IPFS to ZKP and scrypt aided solution, ICP network, ZKP and scrypt aided Aleo solution, Klaytn protocol based solutions for security and for data retrieval. Provide links to alarms and blockchain transaction details.
 
 Alarm Viewer: Add alarms with a single touch. Open the Alarm Settings menu from the home page. Add an alarm, set the wallpaper or choose an alarm tone. You can also delete an existing alarm. We are using decentralized wallet for NFT marketplace of alarm clock wallpapers and background ringtones purchase and auction. We are also extending and adapting Turtle Music using NFT Experiments for music curators for alarm clock. We are using DAO tooling for coordination with a social focus around community collaboration for road incidents and alarms.
 
 We are also utilizing ZKP and scrypt aided Aleo solution, Klaytn to receive road incident feedback reports by citizens, store feedback details from both users, government officials on the incident reports so that they can prevent incidents.
 
-ZKP and scrypt aided ICP solution and license NFT registration module to enable users to register their driving licenses as well as their vehicle registration details in a decentralized manner. An individual can be identified by his/her SSN and a vehicle by Vehicle Registry Number both of which for now are integers between 0 and 65535 (16 bit integers). Every SSN or individual is associated to an address of an individual Bitcoin account. We are developing our own NFT smart contract from the ground up following ZKP and scrypt aided solution, Aleo blockchain and the key tutorial shared at the github website. We are also logging the identities of the driving license owners, their vehicle assets using exchange of unique identifiers powered by ZKP and scrypt aided Aleo solution powered by Klaytn.
+ZKP and scrypt aided ICP solution and license NFT registration module to enable users to register their driving licenses as well as their vehicle registration details in a decentralized manner. An individual can be identified by his/her SSN and a vehicle by Vehicle Registry Number both of which for now are integers between 0 and 65535 (16 bit integers). Every SSN or individual is associated to an address of an individual Bitcoin account. We are developing our own NFT smart contract from the ground up following ZKP and scrypt aided solution, ICP blockchain and the key tutorial shared at the github website. We are also logging the identities of the driving license owners, their vehicle assets using exchange of unique identifiers powered by ZKP and scrypt aided Aleo solution powered by ICP.
+
+Canister ID: oeagv-5qaaa-aaaah-aar4q-cai
 
 ZK Transport wallet supports operations like the signing of the transaction and other cryptographic operations across multiple platforms and blockchains that improve the overall usability and interoperability. We used Zokrates for building the ZK Transport Wallet.
 
