@@ -26,6 +26,17 @@ Our solution offers an Artificial Intelligence-based object detection system tha
 
 Our technical solution enables driver monitoring, incident management and collision avoidance: Incident-based reporting & Collision detection (even when a vehicle is parked) and video footage associated with it. Video footage for abnormal driver behaviour (complete view of the car with 2 cameras – front and back and open source video streaming), real-time alert and live streaming using open source solutions and ASDI OpenAQ dataset along with Gateway RPC end points, ZKP and scrypt aided solution. We are also utilizing ZKP and scrypt aided solution, blockchain to receive road incident feedback reports by citizens, store feedback details from both users and government officials on the incident reports so that they can prevent incidents. Further, we have developed a DeFi dashboard for the riders and the insurance providers.
 
+
+ICP Transport DAO Workflow:
+
+Vehicle DAOs create a RFP for providing service or maintenance on the dapp.
+
+Vehicle drivers can join a RFP by minting an NFT of that RFP. 
+
+Vehicle drivers that have a certain RFP's NFT are eligible to create proposals and vote on them.
+
+Voting is gasless and the vote is stored with the most recent vote linking to one before.
+
 # Internet Computer blockchain and Web3 ecosystem tools
 
 - An AI-based object detection system that utilizes ICP developer tooling for data analytics, decentralized storage for sorting information obtained from cameras. With just a cell phone, users are offered an ICP solution that can detect objects in real time. more object types for better accuracy
