@@ -1,4 +1,4 @@
-# Tranport Intel
+# ICP Tranport DAO
 Investigative case management solution for citizens, police officers, drivers to report and manage incidents, detect and prevent accidents on web using   Internet Computer Blockchain and developer tooling for data analytics, organization and visualization, ZKP and scrypt aided Transport Bitcoin wallet, gateway RPC end points for interoperability with Gnosis and Web3 tools.
 
 Our app solution will enable effective design, engineering and delivery of ZKP aided solution powered by ICP Blockchain and analytics tooling, ICP dev tooling and Gnosis services to make roads safer and better using predictive analytics and automation for incident reporting and reduction in hazardous transportation with capabilities pluggable and extendable to 5 different personas: Driver, Police, Citizen, Dispatcher, Admin.
