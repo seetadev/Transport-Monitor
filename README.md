@@ -26,6 +26,12 @@ Our solution offers an Artificial Intelligence-based object detection system tha
 
 Our technical solution enables driver monitoring, incident management and collision avoidance: Incident-based reporting & Collision detection (even when a vehicle is parked) and video footage associated with it. Video footage for abnormal driver behaviour (complete view of the car with 2 cameras – front and back and open source video streaming), real-time alert and live streaming using open source solutions and ASDI OpenAQ dataset along with Gateway RPC end points, ZKP and scrypt aided solution. We are also utilizing ZKP and scrypt aided solution, blockchain to receive road incident feedback reports by citizens, store feedback details from both users and government officials on the incident reports so that they can prevent incidents. Further, we have developed a DeFi dashboard for the riders and the insurance providers.
 
+Website: https://sites.google.com/view/zkpaspiringroadsafety/home
+
+Pitch Deck Video: https://www.youtube.com/watch?v=Jh_AFWc_kKI
+
+Demos and Pitch Deck: https://drive.google.com/drive/u/4/folders/1-OlvVv6Ov4KgRgWLOIDFZWpR3Rq1EM6G
+
 
 # ICP Transport DAO Workflow:
 
@@ -55,11 +61,6 @@ Voting is gasless and the vote is stored with the most recent vote linking to on
 
   Please visit https://github.com/seetadev/Transport-Monitor/tree/main/Command-Center-OS-IC-Canister and https://github.com/seetadev/Transport-Monitor/tree/main/IC-dev-tooling
 
-Website: https://sites.google.com/view/zkpaspiringroadsafety/home
-
-Pitch Deck Video: https://www.youtube.com/watch?v=Jh_AFWc_kKI
-
-Demos and Pitch Deck: https://drive.google.com/drive/u/4/folders/1-OlvVv6Ov4KgRgWLOIDFZWpR3Rq1EM6G
 
 We are developing a backend solution, where the command and control center can boot a Linux OS by uploading it to an IC Canister. 
 
