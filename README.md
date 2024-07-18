@@ -1,5 +1,5 @@
-# ICP Tranport DAO
-Investigative case management solution for citizens, police officers, drivers to report and manage incidents, detect and prevent accidents on web using   Internet Computer Blockchain and developer tooling for data analytics, organization and visualization, ZKP and scrypt aided Transport Bitcoin wallet, gateway RPC end points for interoperability with Gnosis and Web3 tools.
+# Tranport Monitor
+Investigative case management solution for citizens, police officers, drivers to report and manage incidents, detect and prevent accidents on web using Anduro and Rootstock, Bitcoin Lightning Network  Internet Computer Blockchain and developer tooling for data analytics, organization and visualization, ZKP and scrypt aided Transport Bitcoin wallet, gateway RPC end points for interoperability with Gnosis and Web3 tools.
 
 Our app solution will enable effective design, engineering and delivery of ZKP aided solution powered by ICP Blockchain and analytics tooling, ICP dev tooling and Gnosis services to make roads safer and better using predictive analytics and automation for incident reporting and reduction in hazardous transportation with capabilities pluggable and extendable to 5 different personas: Driver, Police, Citizen, Dispatcher, Admin.
 
@@ -22,7 +22,7 @@ Fleet customers: fleet performance, compare against competition.
 
 # What it does
 
-Our solution offers an Artificial Intelligence-based object detection system that utilizes Internet Computer Blockchain and developer tooling for data analytics, organization and visualization, ZKP and scrypt aided Transport bitcoin wallet, decentralized storage for sorting information obtained from a variety of cameras. With just a cell phone, users are offered a serverless solution that can detect objects in real time and more object types for better accuracy.
+Our solution offers an Artificial Intelligence-based object detection system that utilizes Anduro and Rootstock, Bitcoin Lightning Network, Internet Computer Blockchain and developer tooling for data analytics, organization and visualization, ZKP and scrypt aided Transport bitcoin wallet, decentralized storage for sorting information obtained from a variety of cameras. With just a cell phone, users are offered a serverless solution that can detect objects in real time and more object types for better accuracy.
 
 Our technical solution enables driver monitoring, incident management and collision avoidance: Incident-based reporting & Collision detection (even when a vehicle is parked) and video footage associated with it. Video footage for abnormal driver behaviour (complete view of the car with 2 cameras – front and back and open source video streaming), real-time alert and live streaming using open source solutions and ASDI OpenAQ dataset along with Gateway RPC end points, ZKP and scrypt aided solution. We are also utilizing ZKP and scrypt aided solution, blockchain to receive road incident feedback reports by citizens, store feedback details from both users and government officials on the incident reports so that they can prevent incidents. Further, we have developed a DeFi dashboard for the riders and the insurance providers.
 
@@ -38,7 +38,7 @@ Pitch Deck Video: https://www.youtube.com/watch?v=Jh_AFWc_kKI
 Demos and Pitch Deck: https://drive.google.com/drive/u/4/folders/1-OlvVv6Ov4KgRgWLOIDFZWpR3Rq1EM6G
 
 
-# ICP Transport DAO Workflow:
+# Transport DAO Workflow:
 
 Vehicle DAOs create a RFP for providing service or maintenance on the dapp.
 
