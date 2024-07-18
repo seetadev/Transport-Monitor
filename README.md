@@ -48,6 +48,66 @@ Vehicle drivers that have a certain RFP's NFT are eligible to create proposals a
 
 Voting is gasless and the vote is stored with the most recent vote linking to one before.
 
+
+# Rootstock and Anduro
+
+We have built Transport Monitor using Anduro and Rootstock, Bitcoin Lightning Network, Rootstock,  a mix of programming languages, frameworks and technologies, as follows:
+
+By integrating with Anduro and Rootstock, the Transport-Monitor project can enhance its functionality, security, and user experience, leveraging the strengths of both platforms to provide a robust and scalable solution for transport monitoring and management.
+
+Rootstock smart contracts deployment link: https://explorer.testnet.rootstock.io/address/0xa8979a7102dc8688c458dec7b868816b0b8fe142
+https://explorer.testnet.rootstock.io/address/0x3e7ed59e5aa6783a04ef8795fc31b92577f4e359
+
+Anduro Integration with Transport-Monitor:
+
+1. Data Integrity:
+   - Immutable Logs: Use Anduro’s blockchain to record transport data, ensuring data integrity and immutability.
+   - Auditable Records: Store logs of transport activity that can be audited for compliance and verification purposes.
+
+2. Smart Contracts:
+   - Automated Payments: Implement smart contracts to automate payments for data access and usage-based fees.
+   - Subscription Management: Manage subscription services for users through smart contracts, ensuring automated renewals and cancellations.
+
+3. Decentralized Data Sharing:
+   - Secure Data Exchange: Facilitate secure and decentralized sharing of transport data between stakeholders (e.g., transport companies, authorities) using Anduro.
+
+4. User Authentication:
+   - Decentralized Identity: Utilize Anduro’s decentralized identity solutions to authenticate users, ensuring secure access to the platform.
+
+Rootstock (RSK) Integration with Transport-Monitor:
+
+1. Smart Contract Integration:
+   - RSK Smart Contracts: Develop smart contracts on RSK to handle transactions, data validation, and automation within the Transport-Monitor platform.
+   - Cross-Chain Interoperability: Utilize RSK’s interoperability features to interact with other blockchains and services, enhancing the functionality of the Transport-Monitor project.
+
+2. Payment Solutions:
+   - Bitcoin Payments: Enable payments and micropayments using Bitcoin through RSK’s integration, providing a secure and widely accepted payment method.
+   - Stablecoins: Support stablecoin transactions (e.g., RIF Dollar) to reduce volatility for users and merchants.
+
+3. Security Enhancements:
+   - Merge-Mining Security: Benefit from Bitcoin’s security through RSK’s merge-mining, ensuring robust protection against attacks.
+   - Decentralized Oracle Services: Use decentralized oracles on RSK to fetch and validate external data, improving the reliability of transport monitoring data.
+
+4. Development Tools:
+   - Developer-Friendly Environment: Leverage RSK’s compatibility with Ethereum tools and libraries (e.g., Solidity, Truffle) to simplify the development process.
+   - Integration with Existing dApps: Integrate Transport-Monitor with existing RSK-based dApps and services to expand functionality and user reach.
+
+ Enhancing User Experience
+
+1. Streamlined Payments:
+   - Fast and Low-Cost Transactions: Utilize Anduro and RSK for quick, low-fee transactions, enhancing the payment experience for users.
+   - User Wallet Integration: Integrate user wallets that support Anduro and RSK, enabling seamless transactions and fund management.
+
+2. Data Security and Transparency:
+   - Trustworthy Data: Provide users with transparent and tamper-proof data, increasing trust in the platform.
+   - Privacy Controls: Offer privacy options for users to control who can access their data, ensuring compliance with data protection regulations.
+
+3. Scalable Solutions:
+   - Scalability: Both Anduro and RSK are designed to handle high transaction volumes, ensuring the platform remains responsive and efficient as it grows.
+   - Flexibility: Adapt to user needs by leveraging the flexible smart contract capabilities of Anduro and RSK.
+
+
+
 # Internet Computer blockchain and Web3 ecosystem tools
 
 - An AI-based object detection system that utilizes ICP developer tooling for data analytics, decentralized storage for sorting information obtained from cameras. With just a cell phone, users are offered an ICP solution that can detect objects in real time. more object types for better accuracy
