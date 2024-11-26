@@ -11,47 +11,52 @@ In our Transport-Monitor project, we have leveraged the sponsor technologies to 
 How It Was Used:
 - Integrated ICP's native Bitcoin API to directly interact with Bitcoin’s blockchain without intermediaries.
 - Used this integration to anchor critical transport events (e.g., cargo handoffs, delivery milestones) on the Bitcoin blockchain, ensuring immutable and auditable records.
+
 Application to Bounties:
-Immutable Event Logging: Submitting for bounties related to verifiable logging of transport activities using blockchain anchoring.
-Decentralized Payment Systems: Submitting for bounties that highlight trustless payment mechanisms enabled by direct Bitcoin transactions.
+- Immutable Event Logging: Submitting for bounties related to verifiable logging of transport activities using blockchain anchoring.
+- Decentralized Payment Systems: Submitting for bounties that highlight trustless payment mechanisms enabled by direct Bitcoin transactions.
+
 
 2. Threshold Schnorr Signatures
    
 How It Was Used:
-Implemented distributed signing mechanisms for ckBTC transactions and transport event verifications, ensuring security by removing single points of failure.
-Threshold Schnorr signatures were applied to enable multi-party consensus for:
-Payment approvals tied to successful transport milestones.
-Fraud prevention mechanisms, such as requiring multiple stakeholders to sign off on disputed events or penalties.
+- Implemented distributed signing mechanisms for ckBTC transactions and transport event verifications, ensuring security by removing single points of failure.
+- Threshold Schnorr signatures were applied to enable multi-party consensus for:
+   - Payment approvals tied to successful transport milestones.
+   - Fraud prevention mechanisms, such as requiring multiple stakeholders to sign off on disputed events or penalties.
+
 Application to Bounties:
-Secure Multi-Party Approvals: Submitting for bounties focusing on distributed cryptographic signing to enhance system resilience.
-Fraud Prevention and Accountability: Demonstrating Threshold Schnorr’s role in creating trustless and secure workflows.
+- Secure Multi-Party Approvals: Submitting for bounties focusing on distributed cryptographic signing to enhance system resilience.
+- Fraud Prevention and Accountability: Demonstrating Threshold Schnorr’s role in creating trustless and secure workflows.
+
 
 3. Bitcoin Data
    
 How It Was Used:
-Utilized Bitcoin’s blockchain as a source of immutable, decentralized data for time-stamping transport milestones and verifying payment transactions.
-Transport events are hashed and stored on the Bitcoin blockchain, providing verifiable proof of occurrence to all stakeholders.
+- Utilized Bitcoin’s blockchain as a source of immutable, decentralized data for time-stamping transport milestones and verifying payment transactions.
+- Transport events are hashed and stored on the Bitcoin blockchain, providing verifiable proof of occurrence to all stakeholders.
+
 Application to Bounties:
-Time-Stamped Data Verification: Submitting for bounties related to the use of blockchain data for real-time, auditable transport logs.
-Transparency and Trust: Demonstrating the role of Bitcoin data in enhancing stakeholder confidence through tamper-proof records.
+- Time-Stamped Data Verification: Submitting for bounties related to the use of blockchain data for real-time, auditable transport logs.
+- Transparency and Trust: Demonstrating the role of Bitcoin data in enhancing stakeholder confidence through tamper-proof records.
+
 
 4. ckBTC
    
 How It Was Used:
-Deployed ckBTC for fast, low-cost transactions within the Transport-Monitor platform.
+- Deployed ckBTC for fast, low-cost transactions within the Transport-Monitor platform.
 Used ckBTC for:
-Micropayments in toll collection, real-time monitoring fees, and data-sharing incentives.
-Reward mechanisms, where transport operators and IoT devices are incentivized with ckBTC for contributing accurate, reliable data.
+- Micropayments in toll collection, real-time monitoring fees, and data-sharing incentives.
+- Reward mechanisms, where transport operators and IoT devices are incentivized with ckBTC for contributing accurate, reliable data.
+
 Application to Bounties:
-Efficient Micropayments: Submitting for bounties highlighting ckBTC's scalability for high-frequency, low-value transactions.
-Incentivized Ecosystems: Showcasing how ckBTC is used to create a participatory model rewarding stakeholders for their contributions.
+- Efficient Micropayments: Submitting for bounties highlighting ckBTC's scalability for high-frequency, low-value transactions.
+- Incentivized Ecosystems: Showcasing how ckBTC is used to create a participatory model rewarding stakeholders for their contributions.
 
 
 Combined Submission Focus
 
 By integrating these sponsor technologies, Transport-Monitor addresses critical challenges in transportation such as inefficiency in payments, lack of transparency, and security vulnerabilities. Each technology complements the other, delivering a holistic solution that aligns with the objectives of the bounties.
-
-
 
 
 
