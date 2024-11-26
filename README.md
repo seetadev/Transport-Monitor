@@ -2,7 +2,7 @@
 
 We have built Transport-Monitor, a decentralized platform leveraging cutting-edge blockchain and cryptographic technologies to enhance transparency, security, and efficiency in transportation management. The system integrates Bitcoin on ICP for direct interaction with Bitcoin’s blockchain, enabling immutable logging of transport events and decentralized workflows. It utilizes Threshold Schnorr Signatures for secure, distributed signing, ensuring multi-party consensus for payment approvals and fraud prevention. The platform anchors transport data to the Bitcoin blockchain, providing tamper-proof, time-stamped verification of milestones. Additionally, ckBTC is used for fast, low-cost micropayments, facilitating toll collection, milestone-based payments, and incentivized rewards for accurate data contributions. Transport-Monitor combines these technologies to create a trustless, scalable solution for global transportation ecosystems, addressing key challenges like payment inefficiencies, data integrity, and operational transparency. 
 
-# Usage of Sponsored Tech
+# Usage of Sponsored Tech for Encode's ICP Chain Fusion Hackathon
 
 In our Transport-Monitor project, we have leveraged the sponsor technologies to create a decentralized, efficient, and secure transportation monitoring and payment platform. Below is a breakdown of how each technology was utilized and its specific application to the bounties we are submitting for:
 
@@ -15,6 +15,22 @@ How It Was Used:
 Application to Bounties:
 - Immutable Event Logging: Submitting for bounties related to verifiable logging of transport activities using blockchain anchoring.
 - Decentralized Payment Systems: Submitting for bounties that highlight trustless payment mechanisms enabled by direct Bitcoin transactions.
+
+Implementation Details
+
+- Integrating Bitcoin via ICP using Chain Key cryptography to interact with the Bitcoin blockchain. Please visit 
+
+Features:
+
+- Sending and receiving Bitcoin transactions from an ICP canister.
+- Storing event data on the Bitcoin blockchain via ICP's Bitcoin API.
+- Handling Bitcoin transactions in a decentralized application.
+
+Key Files:
+
+- bitcoin_canister/main.mo: Canister code interacting with Bitcoin.
+- utils/bitcoin_api.js: API to interact with Bitcoin blockchain.
+
 
 
 2. Threshold Schnorr Signatures
@@ -52,6 +68,10 @@ Used ckBTC for:
 Application to Bounties:
 - Efficient Micropayments: Submitting for bounties highlighting ckBTC's scalability for high-frequency, low-value transactions.
 - Incentivized Ecosystems: Showcasing how ckBTC is used to create a participatory model rewarding stakeholders for their contributions.
+
+
+# Implementation Details
+
 
 
 Combined Submission Focus
