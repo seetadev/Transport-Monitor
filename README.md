@@ -6,7 +6,7 @@ We have built Transport-Monitor, a decentralized platform leveraging cutting-edg
 
 In our Transport-Monitor project, we have leveraged the sponsor technologies to create a decentralized, efficient, and secure transportation monitoring and payment platform. Below is a breakdown of how each technology was utilized and its specific application to the bounties we are submitting for:
 
-1. Bitcoin Integration on ICP
+### Bitcoin Integration on ICP
    
 How It Was Used:
 - Integrated ICP's native Bitcoin API to directly interact with Bitcoin’s blockchain without intermediaries.
@@ -33,7 +33,7 @@ Key Files:
 
 
 
-2. Threshold Schnorr Signatures
+### Threshold Schnorr Signatures
    
 How It Was Used:
 - Implemented distributed signing mechanisms for ckBTC transactions and transport event verifications, ensuring security by removing single points of failure.
@@ -46,7 +46,7 @@ Application to Bounties:
 - Fraud Prevention and Accountability: Demonstrating Threshold Schnorr’s role in creating trustless and secure workflows.
 
 
-3. Bitcoin Data
+### Bitcoin Data
    
 How It Was Used:
 - Utilized Bitcoin’s blockchain as a source of immutable, decentralized data for time-stamping transport milestones and verifying payment transactions.
@@ -57,7 +57,7 @@ Application to Bounties:
 - Transparency and Trust: Demonstrating the role of Bitcoin data in enhancing stakeholder confidence through tamper-proof records.
 
 
-4. ckBTC
+### ckBTC
    
 How It Was Used:
 - Deployed ckBTC for fast, low-cost transactions within the Transport-Monitor platform.
