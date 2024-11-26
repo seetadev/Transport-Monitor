@@ -1,4 +1,4 @@
-# Transport Monitor: Summary in 1000 characters
+# Transport Monitor: Summary in 1000 characters for Encode's ICP Chain Fusion Hackathon
 
 We have built Transport-Monitor, a decentralized platform leveraging cutting-edge blockchain and cryptographic technologies to enhance transparency, security, and efficiency in transportation management. The system integrates Bitcoin on ICP for direct interaction with Bitcoin’s blockchain, enabling immutable logging of transport events and decentralized workflows. It utilizes Threshold Schnorr Signatures for secure, distributed signing, ensuring multi-party consensus for payment approvals and fraud prevention. The platform anchors transport data to the Bitcoin blockchain, providing tamper-proof, time-stamped verification of milestones. Additionally, ckBTC is used for fast, low-cost micropayments, facilitating toll collection, milestone-based payments, and incentivized rewards for accurate data contributions. Transport-Monitor combines these technologies to create a trustless, scalable solution for global transportation ecosystems, addressing key challenges like payment inefficiencies, data integrity, and operational transparency. 
 
@@ -9,8 +9,8 @@ In our Transport-Monitor project, we have leveraged the sponsor technologies to 
 1. Bitcoin Integration on ICP
    
 How It Was Used:
-Integrated ICP's native Bitcoin API to directly interact with Bitcoin’s blockchain without intermediaries.
-Used this integration to anchor critical transport events (e.g., cargo handoffs, delivery milestones) on the Bitcoin blockchain, ensuring immutable and auditable records.
+- Integrated ICP's native Bitcoin API to directly interact with Bitcoin’s blockchain without intermediaries.
+- Used this integration to anchor critical transport events (e.g., cargo handoffs, delivery milestones) on the Bitcoin blockchain, ensuring immutable and auditable records.
 Application to Bounties:
 Immutable Event Logging: Submitting for bounties related to verifiable logging of transport activities using blockchain anchoring.
 Decentralized Payment Systems: Submitting for bounties that highlight trustless payment mechanisms enabled by direct Bitcoin transactions.
