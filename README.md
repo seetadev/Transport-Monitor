@@ -18,7 +18,7 @@ Application to Bounties:
 
 Implementation Details
 
-- Integrating Bitcoin via ICP using Chain Key cryptography to interact with the Bitcoin blockchain. Please visit 
+- Integrating Bitcoin via ICP using Chain Key cryptography to interact with the Bitcoin blockchain. 
 
 Features:
 
